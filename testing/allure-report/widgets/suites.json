@@ -1,0 +1,17 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "uid": "85ad2cf2dc0c8c8f99aa7eca527cbe2a",
+      "name": "homework_calc",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 39,
+        "unknown": 0,
+        "total": 39
+      }
+    }
+  ]
+}

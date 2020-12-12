@@ -1,0 +1,119 @@
+{
+  "uid": "18cadcec6eb37bc7",
+  "name": "test_mul_float[negative_decimal]",
+  "fullName": "homework_calc.TestCalc#test_mul_float",
+  "historyId": "f3f5908b2ef7e98e369af4c56c1681e7",
+  "time": {
+    "start": 1607762910133,
+    "stop": 1607762910133,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607762909946,
+        "stop": 1607762909946,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1607762910157,
+        "stop": 1607762910158,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=8)"
+    },
+    {
+      "name": "suite",
+      "value": "homework_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-QKAPNJ85"
+    },
+    {
+      "name": "thread",
+      "value": "3120-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "homework_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-1.4"
+    },
+    {
+      "name": "b",
+      "value": "1.4"
+    },
+    {
+      "name": "expect",
+      "value": "-1.96"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=8)"
+    ]
+  },
+  "source": "18cadcec6eb37bc7.json",
+  "parameterValues": [
+    "-1.4",
+    "1.4",
+    "-1.96"
+  ]
+}

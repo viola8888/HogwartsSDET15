@@ -1,0 +1,58 @@
+{
+  "name": "test_add_float[same_number]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1.1"
+    },
+    {
+      "name": "b",
+      "value": "1.1"
+    },
+    {
+      "name": "expect",
+      "value": "2.2"
+    }
+  ],
+  "start": 1607762909989,
+  "stop": 1607762909989,
+  "uuid": "b9f7971c-45e5-4e9b-9290-9c79fc8280cd",
+  "historyId": "e986d1ec83f18fbe9e442b04df65fa62",
+  "testCaseId": "d033dbec07e80eb645d03a4f437c9bde",
+  "fullName": "homework_calc.TestCalc#test_add_float",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "homework_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-QKAPNJ85"
+    },
+    {
+      "name": "thread",
+      "value": "3120-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "homework_calc"
+    }
+  ]
+}

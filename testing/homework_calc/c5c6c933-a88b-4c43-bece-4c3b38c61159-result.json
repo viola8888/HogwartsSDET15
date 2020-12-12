@@ -1,0 +1,58 @@
+{
+  "name": "test_add_int[negative_zero]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0"
+    },
+    {
+      "name": "b",
+      "value": "14"
+    },
+    {
+      "name": "expect",
+      "value": "14"
+    }
+  ],
+  "start": 1607762909964,
+  "stop": 1607762909964,
+  "uuid": "f6a33634-fbeb-44cd-851d-a0d3f62a26ce",
+  "historyId": "8cdd096431e4872267dad60cf890aef6",
+  "testCaseId": "d100606b9f46b0d552df43a04035d7d0",
+  "fullName": "homework_calc.TestCalc#test_add_int",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "homework_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-QKAPNJ85"
+    },
+    {
+      "name": "thread",
+      "value": "3120-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "homework_calc"
+    }
+  ]
+}
