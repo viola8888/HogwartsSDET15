@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class TestDemo:
-    def setup(self):
+    def setup_class(self):
         # 定义一个字典
         caps = {}
         caps["platformName"] = "Android"
@@ -43,13 +43,14 @@ class TestDemo:
     def teardown(self):
         self.driver.back()
 
+
     def test_a(self):
         self.driver.find_element(MobileBy.XPATH, "//*[@text='通讯录']").click()
         self.driver.find_element(MobileBy.ANDROID_UIAUTOMATOR,
                                  'new UiScrollable(new UiSelector()\
                                  .scrollable(true).instance(0))\
                                  .scrollIntoView(new UiSelector()\
-                                 .text("打卡").instance(0));').click()
+                                 .text("添加成员").instance(0));').click()
         self.driver.find_element(MobileBy.XPATH, "//*[@text='添加成员']").click()
         # self.driver.back()
 
