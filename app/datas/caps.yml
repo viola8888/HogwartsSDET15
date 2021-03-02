@@ -1,0 +1,15 @@
+desirecaps:
+  platformName: "Android"
+  platformVersion: "6.0"
+  deviceName: "hogwarts"
+  appPackage: "com.tencent.wework"
+  appActivity: ".launch.LaunchSplashActivity"
+  noReset: True
+  skipDeviceInitialization: 'true'
+  skipServerInstallation: 'true'
+
+
+
+server:
+  ip: 'localhost'
+  port: "4723"
